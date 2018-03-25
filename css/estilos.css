@@ -1,0 +1,31 @@
+/* Archivo base css de ejemplo */
+/* Lo siguiente se emplea para resetear los valores por defecto de los navegadores */
+html, body { margin:0; padding:0; border:none; }
+/* Definición de los estilos básicos */
+/* Contenedor general. Se determina el ancho y los márgenes automáticos */
+#contenedor {
+width:80%;
+margin: auto;
+}
+/* Estilo de los otros contenedores */
+#cabecera, #pie {
+background: #cbcbcb;
+}
+#pie {
+clear: both;
+}
+#primero {
+background: #fb9f9f;
+}
+#segundo {
+background: #fdc08b;
+}
+#tercero {
+background: #fdeb8b;
+}
+#cabecera, #pie, #primero, #segundo, #tercero {
+padding: 1.25em 2%;
+margin: 0.4em 0;
+}
+#cabecera{ margin-bottom: 0; }
+#contenido { padding: 0; } 
